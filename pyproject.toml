@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "galateia-bot"
+version = "0.1.0"
+description = "WhatsApp Web automation tool with Streamlit interface for sending personalized bulk messages"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+packages = [{include = "galateia_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+streamlit = "^1.24.0"
+selenium = "^4.10.0"
+webdriver-manager = "^3.8.6"
+pandas = "^2.0.3"
+openpyxl = "^3.1.2"
+python-dotenv = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
